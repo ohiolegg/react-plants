@@ -1,0 +1,416 @@
+.containerWrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@media(max-width: 930px){
+    
+    .containerWrapper{
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 1170px){
+    .containerWrapper{
+        width: 100%;
+        padding: 0% 7%;
+    }
+}
+
+.blogHeadline{
+    max-width: 500px;
+    margin-bottom: 160px;
+}
+
+.blogHeadline p{
+    margin-top: 50px;   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    max-width: 400px;
+}
+
+.blogHeadline h1{
+    font-size: 72px;
+}
+
+.blogButton{
+    position: relative;
+    width: 240px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundShapeBlog {
+    width: 200px;
+    height: 200px;
+    background: #C6F19F;
+    filter: blur(95px);
+    border-radius: 50px;
+    position: absolute;
+    z-index: -12;
+}
+
+.blogWrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.blogItem{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.blogItemTitle{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1E220B;
+}
+
+.blogAuthor{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ADADAD;
+}
+
+.blogItemButton{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: #1E220B;
+    position: relative;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.blogItemButton::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #2A4E2B;
+    display: block;
+    position: absolute;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.blogItemButton:hover::after, .blogItemButton:focus::after {
+    content: '';
+    height: 2px;
+    width: 30%;
+
+    display: block;
+    opacity: 1;
+}
+
+.blogItemText{
+    max-width: 275px;
+}
+
+.blogAuthor{
+    margin-top: -35px;
+    margin-bottom: 25px;
+}
+
+.blogItemImg{
+    width: 255px;
+    height: 319px;
+}
+
+.art{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 300px;
+}
+
+.button svg title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+}
+
+.button svg{
+    position: relative;
+    cursor: pointer;
+}
+
+.button svg:hover .greenPart{
+    transform:rotate(-5deg);
+}
+
+
+.button svg:hover .blackPart{
+    fill: #2A4E2B;
+    stroke: #2A4E2B;
+}
+
+.button svg:hover .textPart{
+    stroke: #ffffff;
+    fill: white;
+}
+
+.blogItemImage{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogItemImage .backroundShape{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #2A4E2B;
+    z-index: -12;
+    filter: blur(56px);
+}
+
+.blog{
+    position: relative;
+}
+
+.blogSpin{
+    position: absolute;
+    left: -10%;
+    top: 80%;
+    animation: spin 15s linear 0s infinite;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@media(max-width: 1170px){
+    .blogHeadline{
+        font-size: 65px;
+    }
+
+    .blogItem{
+        width: 550px;
+    }
+
+    .art{
+        position: absolute;
+        top: 80%;
+        left: 18%;
+        width: 250px;
+    }
+
+    .blogSpin{
+        width: 225px;
+        top: 95%;
+    }
+
+}
+
+@media(max-width: 990px){
+
+    .containerWrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogHeadline p{
+        max-width: 100%;
+    }
+
+    .blogOffer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .blogHeadline{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .art{
+        top: 94%;
+        left: 60%;
+        width: 180px;
+    }
+
+    .blogSpin{
+        top: 92%;
+        left: -12%;
+    }
+
+    .blogSpin svg{
+        width: 240px;
+    }
+
+    .blogItem{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .blogItems{
+        width: 100%;
+    }
+}
+
+@media(max-width: 700px){
+    .blogItemImg{
+        width: 200px;
+        height: 250px;
+    }
+
+    .blogItemImage .backroundShape{
+        width: 150px;
+        height: 150px;
+    }
+
+    .blogHeadline h1{
+        font-size: 50px;
+    }
+
+    .blogHeadline p{
+        font-size: 18px;
+    }
+
+    .blogItemText p{
+        font-size: 16px;
+    }
+
+    .blogItemTitle{
+        font-size: 22px;
+    }
+
+    .blogItemText{
+        max-width: 200px;
+    }
+
+    .blogSpin{
+        width: 200px;
+        top: 92%;
+        left: -17%;
+    }
+
+    .art {
+        top: 95%;
+        left: 50%;
+    }
+}
+
+@media(max-width: 600px){
+
+    .blogSpin{
+        left: -15%;
+        top: 95%;
+    }
+
+    .blogSpin svg{
+        width: 225px;
+    }
+
+    .art{
+        left: 40%;
+    }
+    
+    .blogItem{
+        flex-direction: column;
+    }
+
+    .blogItems{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogItemText{
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .blogItemButton{
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .blogItemImg{
+        width: 250px;
+        height: 300px;
+    }
+
+    .blogAuthor{
+        margin-top: 25px;
+    }
+    
+    .blogItemButton::after{
+        right: 40%;
+    }
+
+    .blogItemTitle{
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 500px){
+    .blogSpin{
+        left: -20%;
+        top: 92%;
+    }
+
+    .blogSpin svg{
+        width: 200px;
+    }
+
+    .art{
+        left: 50%;
+    }
+
+}
+
+@media(max-width: 400px){
+    .art {
+        left: 45%;
+        width: 180px;
+        top: 96%;
+    }
+
+    .blogSpin svg {
+        width: 180px;
+    }
+
+    .blogSpin{
+        left: -30%;
+    }
+}
+
+@media(max-width:601px){
+
+    .blogItemButton:hover::after, .blogItemButton:focus::after{
+        width: 100%;
+        top: 75%;
+        right: 0;
+    }
+}
+

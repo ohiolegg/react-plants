@@ -1,0 +1,475 @@
+{
+    "plants": [
+      {
+        "id": 0,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Philodendron/Philodendron-1.jpg",
+          "/images/cataloPage/Plants/Philodendron/Philodendron-2.jpg",
+          "/images/cataloPage/Plants/Philodendron/Philodendron-3.jpg"
+        ],
+        "bannerUrl":"/images/cataloPage/Plants/Philodendron/banner.png",
+        "name": "Philodendron 'Xanadu'",
+        "desc": "It is a good looking plant, with shiny green, leathery leaves. It grows in a mounded shape on a thick woody stem, often becoming wider than it is tall.",
+        "care": [
+          "Suitable for beginners",
+          "Water as needed after the soil dries by 30-40 percent. Thus, it is possible to identify overflows and a number of other problems.",
+          "Likes diffused light, closer to bright. You can't stay in the shadows, change your shiny color to greenish ",
+          "Does not tolerate drafts and temperatures below +16 degrees"
+        ],
+        "description": ["Philodendron Golden Xanadu clearly stands out from the many more than 500 species of philodendrons. A feature of this tree friend breed is very compact growth. Unlike other Philodendron species, the Philodendron Golden Xanadu does not climb. This wonderful green plant grows at eye level and captivates you with its stunning foliage. Admire the brilliant golden, light green leaves and bring joy to your home."],
+        "price": 12,
+        "category": "easy-care",
+        "species": "philodendron"
+      },
+      {
+        "id": 1,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Adiantum/Adiantum-1.jpg",
+          "/images/cataloPage/Plants/Adiantum/Adiantum-2.jpg",
+          "/images/cataloPage/Plants/Adiantum/Adiantum-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Adiantum/banner.png",
+        "name": "Adiantum 'Fragrans'",
+        "desc": "Adiantum Fragrans is an air purifying fern with delicate, light green foliage. Get it at a high discount when you order the plant as part of a Discount Plant Box! ",
+        "care": [
+          "Loves high humidity",
+          "It is desirable to keep the air temperature in the range of 18-25 degrees",
+          "Thank you for the diffused light. Does not tolerate direct sunlight",
+          "Watering is moderate. The soil should always be moist, do not allow water retention at the bottom of the pot",
+          "It is desirable to spray the leaves every day"
+        ],
+        "description": ["Adiantum Fragrans, commonly known as 'Venus-hair fern' due to it's look, is an attractive indoor houseplant. It displays almost-triangular shaped arched collections of small pinnate leaves that are light green in colour, and the black wiry stalks give off an interesting contrast as well as providing it's stiff upright tree-like appearance. This plant should be kept well watered and the soil moist at all times, letting the soil dry out will result in severe problems. Place in a location that has indirect sun, preferably a shaded area with some spots of sunlight. This variety loves humid spots so it would be ideal for a conservatory or bathroom."],
+        "price": 24,
+        "category": "pet-friendly",
+        "species": "adiantum"
+      },
+      {
+        "id": 2,
+        "imgUrls": [
+          "/images/cataloPage/Plants/LivistonPalm/Liviston-1.jpg",
+          "/images/cataloPage/Plants/LivistonPalm/Liviston-2.jpg",
+          "/images/cataloPage/Plants/LivistonPalm/Liviston-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/LivistonPalm/banner.png",
+        "name": "Palm 'Liviston'",
+        "desc": "Also known as the Table Palm or Fan Palm. Livistona rotundifolia is a very attractive and elegant palm with large, shiny, fan shaped leaves and thorny stems",
+        "care": [
+          "The Footstool Palm thrives in normal household temperatures: between 18-24°C. Make sure to always keep this plant above 13°C. Avoid cold draughts.",
+          "Livistona rotundifolia prefers bright, indirect light but can also do fine in partial shade. Avoid direct sunlight however as this may scorch the plant.",
+          "Livistona is one of the palm trees that tolerate low humidity well.",
+          "This palm prefers higher levels of humidity. Stand on a pebble tray and mist regularly. For an added boost, pop it beside the shower to soak up some steam.",
+          "Maintain moist soil conditions at all times. Allow the top of the soil to become slightly dry before watering. Palms don't like boggy conditions so do not overwater."
+        ],
+        "description": ["In their natural habitat in the tropics, these palms grow in natural trees. However, as a pot or tub plant, umbrella palms usually grew as stemless shrubs.Leaves up to 60 cm long and the same are formed on the prickly pointed stems of Livistona. They are separated approximately until the appearance of pointed rays 2-3 cm in size, the ends of which usually hang down."],
+        "price": 47,
+        "category": "big-indoor",
+        "species": "palm"
+      },
+      {
+        "id": 3,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Mamei/Mamei-3.jpg",
+          "/images/cataloPage/Plants/Mamei/Mamei-1.jpg",
+          "/images/cataloPage/Plants/Mamei/Mamei-2.jpg"
+          
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Mamei/banner.png",
+        "name": "Philodendron 'Mamei'",
+        "desc": "A compact, low maintenance choice for homes and offices, that will help purify your air.",
+        "care": [
+          "Easy care",
+          "If there is a support, the size of the leaves will be larger",
+          "Watering should be carried out after the soil dries out by 30-40%",
+          "High humidity will accelerate growth",
+          "Loves diffused lighting"
+        ],
+        "description": ["The Sweetheart Plant is a vining Philodendron and can grow to astonishing lengths, either supported as a climber or left trailing from a hanging basket or shelf. A row of trailing Philodendron scandens makes a fantastic living, green curtain. Mature plants may produce spathes of green-white flowers. This option is trained to grow up a columnar support."],
+        "price": 33,
+        "category": "rare",
+        "species": "philodendron"
+      },
+      {
+        "id": 4,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Frydec/Frydec-1.jpg",
+          "/images/cataloPage/Plants/Frydec/Frydec-2.jpg",
+          "/images/cataloPage/Plants/Frydec/Frydec-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Frydec/banner.png",
+        "name": "Allocation 'Frydek'",
+        "desc": "Alocasia micholitziana ‘Frydek’ is a rare variegated cultivar of Alocasia micholitziana, characterized by white, mint, or yellow variegation, on top of the characteristic white veins",
+        "care": [
+          "Loves high humidity",
+          "Place the plant out of direct sunlight",
+          "Air temperature should be above + 18 degrees",
+          "Watering should be done after the top 20-30% of the substrate has dried"
+        ],
+        "description": ["Alocasia micholitziana ‘Frydek’, also known as Alocasia Green Velvet is a stunningly beautiful variety of Alocasia that has grown massively in popularity over the last few years. Like other Alocasias, keeping it thriving and looking its best can be a bit of a challenge. This article will cover all you need to know about Alocasia Frydek care to keep yours looking great."],
+        "price": 37,
+        "category": "rare",
+        "species": "allocation"
+      },
+      {
+        "id": 5,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Neon/Neon-1.jpg",
+          "/images/cataloPage/Plants/Neon/Neon-2.jpg",
+          "/images/cataloPage/Plants/Neon/Neon-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Neon/banner.png",
+        "name": "Syngonium 'Neon'",
+        "desc": "One of the most beautiful representatives of this plant, its young leaves are pink with a fringe of light green hue.",
+        "care": [
+          "It is better to place it in partial shade or on the western or eastern windowsills, although the houseplant syngonium withstands bright diffused light well - as long as it does not fall in direct sunlight, from which its leaves fade.",
+          "The most comfortable temperature for the plant in summer is 20-22 ºC, and in winter the temperature in the room where the syngonium grows should not fall below 16 ºC.",
+          "Syngonium humidity is higher than usual, so in summer its leaves should be sprayed or washed with warm stagnant water using a soft sponge, and in winter it is better to keep the pot with the plant away from working heaters or put it on a tray with wet pebbles, but so that the bottom does not stood in the water.",
+          "From April to September, the syngonium needs to be fertilized with liquid mineral fertilizers for ornamental and deciduous plants with low calcium content about once every two to three weeks. In winter, the plant does not need fertilizing."
+        ],
+        "description": ["For city apartments, the syngonium is simply an indispensable plant. It effectively green the space. The crown also cleans the air, absorbing vapors of xylene, formaldehyde and other hazardous substances. The flower optimizes the humidity in the room and saturates it with oxygen."],
+        "price": 22,
+        "category": "shade-tolerant",
+        "species": "syngonium"
+      },
+      {
+        "id": 6,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Superbum/Superbum-1.jpg",
+          "/images/cataloPage/Plants/Superbum/Superbum-2.jpg",
+          "/images/cataloPage/Plants/Superbum/Superbum-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Superbum/banner.png",
+        "name": "Platycerium 'Bum'",
+        "desc": "Platycerium are commonly called Staghorn or Elkhorn Fern due to their weirdly wonderful, unique, antler shaped leaves.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 17,
+        "category": "easy-care",
+        "species": "platycerium"
+      },
+      {
+        "id": 7,
+        "imgUrls": [
+          "/images/cataloPage/Plants/SilverBlush/SilverBlush-1.jpg",
+          "/images/cataloPage/Plants/SilverBlush/SilverBlush-2.jpg",
+          "/images/cataloPage/Plants/SilverBlush/SilverBlush-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/SilverBlush/banner.png",
+        "name": "Anthurium 'Silver'",
+        "desc": "It has a fairly compact growth and is ideal for places with relatively small space. Their dark color and contrast of the veins of the leaves set beautiful accents.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 24,
+        "category": "pet-friendly",
+        "species": "anthurium"
+      },
+      {
+        "id": 8,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Salmon/Salmon-1.jpg",
+          "/images/cataloPage/Plants/Salmon/Salmon-2.jpg",
+          "/images/cataloPage/Plants/Salmon/Salmon-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Salmon/banner.png",
+        "name": "Aglaonema 'Salmon'",
+        "desc": "If you have long been looking for a plant with colored leaves, but the difficulty of care has always stopped, then aglaonema will be a great solution",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 16,
+        "category": "shade-tolerant",
+        "species": "aglaonema"
+      },
+      {
+        "id": 10,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Lindenii/Lindenii-1.jpg",
+          "/images/cataloPage/Plants/Lindenii/Lindenii-2.jpg",
+          "/images/cataloPage/Plants/Lindenii/Lindenii-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Lindenii/banner.png",
+        "name": "Xanthosome 'Lindenii'",
+        "desc": "This beautiful caladium from Colombia has some botanically very confusing characteristics, so it is sometimes called by different names.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 40,
+        "category": "big-indoor",
+        "species": "xanthosome"
+      },
+      {
+        "id": 11,
+        "imgUrls": [
+          "/images/cataloPage/Plants/WhiteFusion/WhiteFusion-1.jpg",
+          "/images/cataloPage/Plants/WhiteFusion/WhiteFusion-2.jpg",
+          "/images/cataloPage/Plants/WhiteFusion/WhiteFusion-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/WhiteFusion/banner.png",
+        "name": "Colatea 'White Fusion'",
+        "desc": "Collectible, rare type of Calathea, which has a luxurious appearance, thanks to the impressive color of the leaf plates.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 48,
+        "category": "rare",
+        "species": "colatea"
+      },
+      {
+        "id": 12,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Benghalensis/Benghalensis-1.jpg",
+          "/images/cataloPage/Plants/Benghalensis/Benghalensis-2.jpg",
+          "/images/cataloPage/Plants/Benghalensis/Benghalensis-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Benghalensis/banner.png",
+        "name": "Ficus 'Benghalensis'",
+        "desc": "Ficus benghalensis, the banyan tree of the Indians, is revered as a sacred tree by the Hindus in its original homeland",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 52,
+        "category": "pet-friendly",
+        "species": "ficus"
+      },
+      {
+        "id": 13,
+        "imgUrls": [
+          "/images/cataloPage/Plants/GreenMagic/GreenMagic-1.jpg",
+          "/images/cataloPage/Plants/GreenMagic/GreenMagic-2.jpg",
+          "/images/cataloPage/Plants/GreenMagic/GreenMagic-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/GreenMagic/banner.png",
+        "name": "Dieffenbachia 'Magic'",
+        "desc": "A strong and unpretentious plant with bright green leaves and a pronounced light vein in the center of the leaf, which is a bit like a magic wand.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 33,
+        "category": "big-indoor",
+        "species": "dieffenbachia"
+      },
+      {
+        "id": 14,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Metallica/Metallica-1.jpg",
+          "/images/cataloPage/Plants/Metallica/Metallica-2.jpg",
+          "/images/cataloPage/Plants/Metallica/Metallica-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Metallica/banner.png",
+        "name": "Sansevieria 'Metallica'",
+        "desc": "Collectible and very rare species of sansevieria. It is a fashionable houseplant valued primarily for its showy silver coloration.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 31,
+        "category": "easy-care",
+        "species": "sansevieria"
+      },
+      {
+        "id": 15,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Thai/Thai-1.jpg",
+          "/images/cataloPage/Plants/Thai/Thai-2.jpg",
+          "/images/cataloPage/Plants/Thai/Thai-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Thai/banner.png",
+        "name": "Monstera 'Thai'",
+        "desc": "The Monstera Thai with its stunning looks and amazing color combination.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 99,
+        "category": "rare",
+        "species": "monstera"
+      },
+      {
+        "id": 16,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Nidus/Nidus-3.jpg",
+          "/images/cataloPage/Plants/Nidus/Nidus-2.jpg",
+          "/images/cataloPage/Plants/Nidus/Nidus-1.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Nidus/banner.png",
+        "name": "Asplenium 'Nidus'",
+        "desc": "Aspleniums are quite unpretentious and very beautiful ferns. In nature, they are distributed throughout the world.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 46,
+        "category": "big-indoor",
+        "species": "asplenium"
+      },
+      {
+        "id": 17,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Coniogramme/Coniogramme-1.jpg",
+          "/images/cataloPage/Plants/Coniogramme/Coniogramme-2.jpg",
+          "/images/cataloPage/Plants/Coniogramme/Coniogramme-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Coniogramme/banner.png",
+        "name": "Fern 'Coniogramme'",
+        "desc": "A fast growing fern from the Adianth family.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 63,
+        "category": "big-indoor",
+        "species": "ficus"
+      },
+      {
+        "id": 18,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Merrillii/Merrillii-1.jpg",
+          "/images/cataloPage/Plants/Merrillii/Merrillii-2.jpg",
+          "/images/cataloPage/Plants/Merrillii/Merrillii-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Merrillii/banner.png",
+        "name": "Adonidia 'Merrillii'",
+        "desc": "A very showy palm, which is rarely found in our culture, although it is beautiful, fast growing and completely unpretentious.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 84,
+        "category": "big-indoor",
+        "species": "adonidia"
+      },
+      {
+        "id": 19,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Platinum/Platinum-1.jpg",
+          "/images/cataloPage/Plants/Platinum/Platinum-2.jpg",
+          "/images/cataloPage/Plants/Platinum/Platinum-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Platinum/banner.png",
+        "name": "Allocation 'Platinum '",
+        "desc": "A very limited batch! An unusual graphically complex pattern gives this alocasia a high status.",
+        "care": [
+          "Platycerium bifurcatum prefers bright, indirect light. Find the brightest spot you have for the best results - however avoid exposing your plant to direct sunlight as this will scorch the plant.",
+          "Due to the hard shield leaves covering the root ball, it is best to water from below. Dunk in water for 10-15 mins (less in winter) and ensure there is adequate drainage. Allow the soil to begin to dry-out before watering. Don't let it stand in water continually.",
+          "The Common Staghorn Fern thrives in normal household temperatures: between 16-24°C. Try to always keep your plant above 12°C at the very minimum. Avoid cold draughts.",
+          "These ferns prefer higher humidity levels where possible. Mist regularly. Ideal plants for kitchens and bathrooms."
+        ],
+        "description": ["Platycerium Superbum is an easy-care fern that doesn't take offense so quickly to care mistakes. Here in the version with a stopper. Platycerium grows epiphytically and grows in the tropics of South America, Africa, Southeast Asia, Australia and New Guinea. Feature of deer ferns are their 2 different types of leaves. Round panel leaves are formed at the base of the deer fern. With their help, the fern clings to its base. The rest of the vines grow sprawling and drooping, resembling deer antlers due to their bifurcation. The corymbs of deer antler ferns are sterile and do not form spores."],
+        "price": 36,
+        "category": "shade-tolerant",
+        "species": "allocation"
+      }
+    ],
+  
+    "new-arrivals": [
+      {
+        "id": 0,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Philodendron/Philodendron-1.jpg",
+          "/images/cataloPage/Plants/Philodendron/Philodendron-2.jpg",
+          "/images/cataloPage/Plants/Philodendron/Philodendron-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Philodendron/banner.png",
+        "name": "Philodendron 'Xanadu'",
+        "desc": "It is a good looking plant, with shiny green, leathery leaves. It grows in a mounded shape on a thick woody stem, often becoming wider than it is tall.",
+        "care": [
+          "Suitable for beginners",
+          "Water as needed after the soil dries by 30-40 percent. Thus, it is possible to identify overflows and a number of other problems.",
+          "Likes diffused light, closer to bright. You can't stay in the shadows, change your shiny color to greenish ",
+          "Does not tolerate drafts and temperatures below +16 degrees"
+        ],
+        "description": ["Philodendron Golden Xanadu clearly stands out from the many more than 500 species of philodendrons. A feature of this tree friend breed is very compact growth. Unlike other Philodendron species, the Philodendron Golden Xanadu does not climb. This wonderful green plant grows at eye level and captivates you with its stunning foliage. Admire the brilliant golden, light green leaves and bring joy to your home."],
+        "price": 62,
+        "category": "easy-care",
+        "species": "philodendron"
+      },
+      {
+        "id": 1,
+        "imgUrls": [
+          "/images/cataloPage/Plants/Adiantum/Adiantum-1.jpg",
+          "/images/cataloPage/Plants/Adiantum/Adiantum-2.jpg",
+          "/images/cataloPage/Plants/Adiantum/Adiantum-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/Adiantum/banner.png",
+        "name": "Adiantum 'Fragrans'",
+        "desc": "Adiantum Fragrans is an air purifying fern with delicate, light green foliage. Get it at a high discount when you order the plant as part of a Discount Plant Box! ",
+        "care": [
+          "Loves high humidity",
+          "It is desirable to keep the air temperature in the range of 18-25 degrees",
+          "Thank you for the diffused light. Does not tolerate direct sunlight",
+          "Watering is moderate. The soil should always be moist, do not allow water retention at the bottom of the pot",
+          "It is desirable to spray the leaves every day"
+        ],
+        "description": ["Adiantum Fragrans, commonly known as 'Venus-hair fern' due to it's look, is an attractive indoor houseplant. It displays almost-triangular shaped arched collections of small pinnate leaves that are light green in colour, and the black wiry stalks give off an interesting contrast as well as providing it's stiff upright tree-like appearance. This plant should be kept well watered and the soil moist at all times, letting the soil dry out will result in severe problems. Place in a location that has indirect sun, preferably a shaded area with some spots of sunlight. This variety loves humid spots so it would be ideal for a conservatory or bathroom."],
+        "price": 87,
+        "category": "pet-friendly",
+        "species": "adiantum"
+      },
+      {
+        "id": 2,
+        "imgUrls": [
+          "/images/cataloPage/Plants/LivistonPalm/Liviston-1.jpg",
+          "/images/cataloPage/Plants/LivistonPalm/Liviston-2.jpg",
+          "/images/cataloPage/Plants/LivistonPalm/Liviston-3.jpg"
+        ],
+        "bannerUrl": "/images/cataloPage/Plants/LivistonPalm/banner.png",
+        "name": "Palm 'Liviston'",
+        "desc": "Also known as the Table Palm or Fan Palm. Livistona rotundifolia is a very attractive and elegant palm with large, shiny, fan shaped leaves and thorny stems",
+        "care": [
+          "The Footstool Palm thrives in normal household temperatures: between 18-24°C. Make sure to always keep this plant above 13°C. Avoid cold draughts.",
+          "Livistona rotundifolia prefers bright, indirect light but can also do fine in partial shade. Avoid direct sunlight however as this may scorch the plant.",
+          "Livistona is one of the palm trees that tolerate low humidity well.",
+          "This palm prefers higher levels of humidity. Stand on a pebble tray and mist regularly. For an added boost, pop it beside the shower to soak up some steam.",
+          "Maintain moist soil conditions at all times. Allow the top of the soil to become slightly dry before watering. Palms don't like boggy conditions so do not overwater."
+        ],
+        "description": ["In their natural habitat in the tropics, these palms grow in natural trees. However, as a pot or tub plant, umbrella palms usually grew as stemless shrubs.Leaves up to 60 cm long and the same are formed on the prickly pointed stems of Livistona. They are separated approximately until the appearance of pointed rays 2-3 cm in size, the ends of which usually hang down."],
+        "price": 142,
+        "category": "big-indoor",
+        "species": "palm"
+      }
+    ]
+  }

@@ -1,0 +1,156 @@
+.cartItem{
+    padding: 50px 0px;
+    border-bottom: solid 1px #B4C1B5;
+    border-top: solid 1px #B4C1B5;
+    display: flex;
+    width: 609px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 150px;
+    margin-right: 95px;
+}
+
+.name{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.size{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.close{
+    width: 30px;
+    height: 30px;
+    border: solid 1px #7B7B7B;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.amountFilters{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+}
+
+.amount{
+    font-weight: 500;
+}
+
+.amounfilter{
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #666666;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 17px;
+    color: #666666;
+}
+
+.amounfilter:last-of-type{
+    border: solid 1px #6CA23E;
+    color: #6CA23E;
+}
+
+.rightPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    margin: 0;
+    margin-left: -50px;
+}
+
+.desc .wrapper{ 
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+}
+
+.text{
+    margin-right: 80px;
+    margin-bottom: 45px;
+}
+
+@media(max-width: 650px){
+    .cartItem{
+        width: 450px;
+        position: relative;
+        justify-content: center;
+    }
+
+    .close{
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .rightPart{
+        flex-direction: column;
+    }
+
+    .text{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .amountFilters{
+        margin-bottom: 50px;
+    }
+
+    .image{
+        margin-right: 0;
+    }
+
+    .price{
+        margin-left: 0;
+    }
+
+    .orderForm{
+        width: 450px;
+    }
+
+    .formWrapper{
+        width: 370px;
+    }
+}
+
+@media(max-width: 470px){
+    .cartItem{
+        width: 320px;
+    }
+
+}

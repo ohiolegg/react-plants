@@ -1,0 +1,213 @@
+.containerWrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+button{
+    outline: none;
+    border: none
+}
+
+@media(max-width: 930px){
+    
+    .containerWrapper{
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 1170px){
+    .containerWrapper{
+        width: 100%;
+        padding: 0% 7%;
+    }
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.headline{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    color: #1E220B;
+    margin-bottom: 50px;
+}
+
+.orderForm{
+    width: 500px;
+    height: 550px;
+    border: 2px solid #2A4E2B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper{
+    width: 410px;
+}
+
+.payInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.payInfo:nth-child(2){
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #B4C1B5;
+}
+
+.payInfo:nth-child(3){
+    margin-top: 50px;
+}
+
+.payInfo p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    color: #000000;
+}
+
+.totalInfo{
+    font-family: 'GarciaMarquez' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 27px !important;
+    color: #2A4E2B !important;
+}
+
+.price{
+    font-family: 'GarciaMarquez' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    line-height: 25px !important;
+    color: #000000 !important;
+}
+
+.price span{ 
+    color: #6CA23E !important;
+}
+
+.discountForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.discountInput:focus{
+    border: 2px solid #6CA23E;
+}
+
+.discountInput{
+    width: 232px;
+    height: 54px;
+    border: 2px solid #6CA23E;
+    color:#6CA23E;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ADD38C;
+    outline:none;
+}
+
+.discountInput::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ADD38C;
+}
+
+.discountButton{
+    width: 126px;
+    height: 54px;
+    background: #6CA23E;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.discountButton:hover{
+    background: #fff;
+    color: #6CA23E;
+    border: 2px solid #6CA23E;
+}
+
+.checkoutButton{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    background: #2A4E2B;
+    border: 2px solid #2A4E2B;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkoutButton:hover{
+    color: #2A4E2B;
+    background: #fff;
+}
+
+@media(max-width: 1170px){
+    .wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .cartItems{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 470px){
+    .orderForm{
+        width: 320px;
+    }
+
+    .formWrapper{
+        max-width: 280px;
+    }
+
+    .discountInput{
+        font-size: 14px;
+    }
+}
+
+.wrong{
+    border: 2px solid #FF7C7C;
+    color:#FF7C7C;
+    color: #FF7C7C;
+}
+
+.wrong:focus{
+    border: 2px solid #FF7C7C;
+    color:#FF7C7C;
+    color: #FF7C7C;
+}

@@ -1,0 +1,136 @@
+.footer{
+    padding-bottom: 160px;
+}
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.containerWrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menuItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo{
+    width: 200px;
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #1E220B;
+}
+
+.map{
+    width: 393px;
+    height: 258px;
+}
+
+iframe{
+    width: 393px;
+    height: 258px; 
+    border: none 
+}
+
+.menuItem h5{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #1E220B;
+    margin: 0;
+}
+
+.menuItem ul {
+    margin-top: 40px;
+}
+
+.menuItem ul li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+@media(max-width: 1170px){
+    .containerWrapper{
+        width: 100%;
+        padding: 0% 7%;
+    }
+
+    .footer{
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width: 1100px){
+    .map{
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 988px){
+    
+    .footer{
+        padding-bottom: 100px;
+    }
+    
+    .footerWrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLogo{
+        text-align: center;
+        width: auto;
+    }
+
+    .footerWrapper div{
+        margin-top: 100px;
+    }
+
+    .footerWrapper div:first-of-type{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 930px){
+
+    .containerWrapper{
+        padding: 0 5%;
+    }
+}
+
+@media(max-width: 415px){
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+}

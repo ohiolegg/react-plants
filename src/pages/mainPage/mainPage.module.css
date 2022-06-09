@@ -1,0 +1,956 @@
+.headline{
+    margin-top: 98px;
+    z-index: 99;
+    position: relative;
+}
+
+.containerWrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.jungle{
+    position: absolute;
+    left: -10%;
+    animation: spin 15s linear 0s infinite;
+    top: 50%;
+}
+
+.headline h1{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    color: #1E220B;
+    line-height: 0;
+}
+
+.headline span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.headlineWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.headlineSuptitle{
+    display: flex;
+    align-items: center;
+}
+
+.headline .line{
+    width: 127px;
+    height: 2px;
+    background-color:#6CA23E;
+    margin-right: 50px;
+}
+
+.headlineSubtitle{
+    margin-top: 30px;
+}
+
+.mainScreen{
+    margin-top: 0;
+}
+
+.mainScreenContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -105px;
+}
+
+.mainScreenOffer{
+    max-width: 410px;
+    margin-top: 80px;
+}
+
+.mainScreenOffer p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.button svg title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+}
+
+.button svg{
+    position: relative;
+}
+
+.button svg:hover .greenPart{
+    transform:rotate(-5deg);
+}
+
+
+.button svg:hover .blackPart{
+    fill: #2A4E2B;
+    stroke: #2A4E2B;
+}
+
+.button svg:hover .textPart{
+    stroke: #ffffff;
+    fill: white;
+}
+
+.backgroundShape{
+    width: 444.59px;
+    height: 263.04px;
+    background: #C6F19F;
+    filter: blur(118px);
+    border-radius: 50px;
+    position: absolute;
+    z-index: -12;
+    margin-top: -264px;
+    margin-left: 115px;
+}
+
+.backgroundShapeJungle{
+    position: absolute;
+    top: 85%;
+    left: -30%;
+}
+
+.backroundText{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 0;
+    color: rgba(0, 0, 0, 0.04);
+    transform: rotate(-90deg);
+    position: absolute;
+    z-index: -10;
+}
+
+.backroundTextLeft{
+    left: -10%;
+    top: 20%;
+}
+
+.backroundTextRight{
+    right: -10%;
+    bottom: 0%;
+}
+
+.newArrivalsHeadline h1{
+    margin-right: 50px;
+}
+
+.newArrivalsHeadline .line{
+    margin-right: 50px;
+}
+
+.headlineInner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headlineInnerButton{
+    width: 163px;
+    height: 39px;
+    color: #fff;
+    background: #2A4E2B;
+    border-radius: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: all 1s ease-in-out;
+}
+
+.headlineInnerButton:hover{
+    background-color: #fff;
+    border: solid 2px #2A4E2B;
+    color: #2A4E2B;
+}
+
+.newArrivalsHeadlineInner h1{
+    margin-right: 100px;
+}
+
+.newArrivalsItem{
+    width: 300px;
+}
+
+.newArrivalsItem img{
+    width: 300px;
+    margin-bottom: 30px;   
+}
+
+.newArrivalsItem p{
+    margin-bottom: 30px;    
+}
+
+.newArrivalsItem h5{
+    margin-bottom: 30px;    
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.newArrivalsItemInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newArrivalsItemButton{
+    width: 163px;
+    height: 39px;
+    border: 1px solid #6CA23E;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6CA23E;
+}
+
+.newArrivalsItemButton:hover{
+    background-color: #6CA23E;
+    color:#fff;
+}
+
+.price{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    align-items: center;
+    color: #000000;
+}
+
+.price span{ 
+    color: #6CA23E;
+}
+
+.categoriesTabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.categoriesItem{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px #2A4E2B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    color: #7C7C7C;
+    line-height: 54px;
+}
+
+.categoriesItem:last-child{
+    border-bottom: none;
+}
+
+.categoriesItems .active{
+    color: #000000;
+}
+
+.categoriesTabsContent{
+    display: none;
+    width: 638.45px;
+    height: 638.45px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.categoriesTabsContent .backgroundCircle{
+    position: absolute;
+    z-index: -20;
+}
+
+.categoriesContentImg{
+    height: 535px;
+    width: 539px;
+}
+
+.categoriesTabsContents .active{
+    display: flex;
+}
+
+.blogHeadline{
+    max-width: 500px;
+    margin-bottom: 160px;
+}
+
+.blogHeadline p{
+    margin-top: 50px;   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    max-width: 400px;
+}
+
+.blogHeadline h1{
+    font-size: 72px;
+}
+
+.blogButton{
+    position: relative;
+    width: 240px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundShapeBlog {
+    width: 200px;
+    height: 200px;
+    background: #C6F19F;
+    filter: blur(95px);
+    border-radius: 50px;
+    position: absolute;
+    z-index: -12;
+}
+
+.blogWrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.blogItem{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.blogItemTitle{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1E220B;
+}
+
+.blogAuthor{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ADADAD;
+}
+
+.blogItemButton{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    padding-bottom: 20px;
+    color: #1E220B;
+    position: relative;
+    margin-top: 40px;
+}
+
+.blogItemButton::after {
+    content: "";
+    display: block;
+    width: 85px;
+    padding-top: 3px;
+    border-bottom: 2px solid #2A4E2B;
+    right: 0px;
+    position: absolute;
+}
+
+.blogItemText{
+    max-width: 275px;
+}
+
+.blogAuthor{
+    margin-top: -35px;
+    margin-bottom: 25px;
+}
+
+.blogItemImg{
+    width: 255px;
+    height: 319px;
+}
+
+.art{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 300px;
+}
+
+.blogItemImage{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogItemImage .backroundShape{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #2A4E2B;
+    z-index: -12;
+    filter: blur(56px);
+}
+
+.blog{
+    position: relative;
+}
+
+.blogSpin{
+    position: absolute;
+    left: -10%;
+    top: 80%;
+    animation: spin 15s linear 0s infinite;
+}
+
+.socialMedia{
+    margin-top: 350px;
+}
+
+.insta{
+    color: #2A4E2B !important;
+}
+
+.instaLine{
+    background-color: #2A4E2B !important;
+}
+
+.plantyLine{
+    margin-top: 160px;
+}
+
+.plantyLine p{
+    animation: none !important;
+}
+
+.video{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.bgVideo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.videoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.videoTitle{
+    font-family: 'GarciaMarquez';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+    color: #FFFFFF; 
+}
+
+.videoSub{
+    margin-bottom: 250px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 29px;
+    color: #fff;
+}
+
+.videoDesc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+}
+
+.newArrivalsHeadline{
+    margin-top: 0;
+}
+
+.newArrivalsItems{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+
+.backgroundSvg{
+    position: absolute;
+    top: -3%;
+    left: 15%;
+}
+
+.backgroundSvg2{
+    position: absolute;
+    top: 15%;
+    left: -6%;
+}
+
+.newArrivals{
+    position: relative;
+}
+
+@media(max-width: 1400px){
+    .backgroundSvg2{
+       width: 240px;
+    }
+}
+
+@media(max-width: 1170px){
+    .backgroundSvg2{
+        width: 210px;
+        top: 10%;
+     }
+
+    .containerWrapper{
+        width: 100%;
+        padding: 0% 7%;
+    }
+
+    .backgroundShapeJungle{
+        top: 30%;
+        left: -35%;
+    }
+
+    .mainHeader{
+        padding: 0% 7%;
+        width: 100%;
+    }
+
+    .collageImg {
+        width: 550px;
+    }
+
+    .headlineSuptitle span{
+        font-size: 20px;
+    }
+
+    .headline .line{
+        width: 85px;
+    }
+
+    .button{
+        margin-top: 0;
+    }
+
+    .mainScreenOffer p{
+        font-size: 16px;
+    }
+
+    .headline h1{
+        font-size: 90px;
+    }
+
+    .jungle{
+        left: -15%;
+        top: 15%;
+    }
+
+    .jungle svg{
+        width: 250px;
+    }
+
+    .backroundTextLeft{
+        left: -15%;
+        top: 8%;
+    }
+
+    .backroundTextRight{
+        right: -15%;
+        top: 27%;
+        bottom: auto;
+    }
+
+    section{
+        margin-top: 100px;
+    }
+
+    .newArrivalsItems{
+        margin-top: 100px;
+    }
+
+    .backgroundSvg{
+        position: absolute;
+        top: -3%;
+        left: 10%;
+    }
+}
+
+@media(max-width: 988px){
+
+    .newArrivalsItems{
+        flex-direction: column;
+    }
+
+    .backgroundSvg2{
+        top: 5%;
+    }
+
+    .newArrivalsItems div{
+        margin-bottom: 100px;
+    }
+
+    .newArrivalsItems div:last-of-type{
+        margin-bottom: 0px;
+    }
+
+    .newArrivalsHeadline{
+        width: 100%;
+    }
+
+    .containerWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainScreenContent{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .backgroundShapeJungle{
+        top: 65%;
+        left: -50%;
+    }
+    
+    .mainScreenOffer p{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .headline h1{
+        font-size: 80px;
+    }
+
+    .collageImg{
+        margin-top: 40px;
+    }
+
+    .jungle{
+        left: -15%;
+        top: 45%;
+    }
+
+    .jungle svg{
+        width: 350px;
+    }
+
+    .backroundTextRight{
+        right: -15%;
+        top: 46%;
+        bottom: auto;
+    }
+}
+
+@media(max-width: 930px){
+
+    .backgroundShapeJungle{
+        top: 45%;
+        left: -55%;
+    }
+
+    .backgroundShapeJungle{
+        top: 65%;
+    }
+
+    .containerWrapper{
+        padding: 0 5%;
+    }
+
+    .headline h1{
+        font-size: 50px;
+    }
+
+    .jungle{
+        left: -20%;
+        top: 45%;
+    }
+
+    .backroundTextLeft{
+        left: -19%;
+    }
+
+    .backroundTextRight{
+        right: -20%;
+        top: 43%;
+    }
+}
+
+@media(max-width: 780px){
+    .blogSpin svg {
+        width: 200px;
+    }
+}
+
+@media(max-width: 700px){
+    .collageImg{
+        width: 350px;
+        margin-top: 70px;
+    }
+
+    .backgroundSvg{
+        width: 240px;
+    }
+
+    .jungle{
+        left: -15%;
+        top: 28%;
+    }
+
+    .backgroundSvg2{
+        width: 160px;
+    }
+
+    .backgroundShapeJungle{
+        top: 45%;
+        left: -40%;
+    }
+
+    .newArrivalsHeadline{
+        width: auto;
+    }
+
+    .jungle svg{
+        width: 250px;
+    }
+
+    .headline span{
+        font-size: 14px;
+        margin-right: 25px;
+    }
+
+    .headline .line{
+        width: 40px;
+        margin-right: 25px;
+    }
+
+    .headline h1{
+        font-size: 30px;
+    }
+
+    .backgroundShape{
+        width: 200px;
+        height: 200px;
+        background: #C6F19F;
+        filter: blur(60px);
+        border-radius: 50px;
+        position: absolute;
+        z-index: -12;
+        margin-top: -255px;
+        margin-left: 155px;
+    }
+    
+    .backroundText{
+        font-size: 60px;
+    }
+
+    .backroundTextLeft{
+        top: 10%;
+        left: -20%;
+    }
+
+    .backroundTextRight{
+        right: -23%;
+        top: 107%;
+    }
+
+    .mainScreenOffer p{
+        font-size: 16px;
+    }
+
+    .categoriesItem{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 586px){
+
+    .jungle{
+        left: -15%;
+        top: 28%;
+    }
+
+    .backgroundShapeJungle{
+        top: 45%;
+        left: -40%;
+    }
+
+    .backgroundSvg2{
+        width: 140px;
+        top: 3%;
+    }
+
+    .jungle svg{
+        width: 200px;
+    }
+
+    .headlineInnerButton{
+        width: 130px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 520px){
+
+    .jungle{
+        left: -15%;
+        top: 60%;
+    }
+
+    .backgroundShapeJungle{
+        top: 100%;
+        left: -40%;
+        width: 100px;
+        height: 100px;
+        filter: blur(40px);
+    }
+
+    .jungle svg{
+        width: 150px;
+    }
+
+    .mainScreenContent .backgroundShape{
+        margin-top: -150px;
+        margin-left: 85px;
+    }
+
+    .headlineInner{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .headlineInner h1{
+        margin-right: 0;
+    }
+
+}
+@media(max-width: 475px){
+    .backgroundSvg2{
+        width: 100px;
+        top: 2%;
+    }
+}
+
+@media(max-width: 415px){
+    .backroundTextRight{
+        right: -25%;
+        top: 95%;
+    }
+
+    .backroundTextLeft{
+        left: -22%;
+    }
+
+    .jungle{
+        top: 72%;
+    }
+
+    .backgroundSvg{
+        width: 220px;
+    }
+
+    .backgroundShapeJungle{
+        top: 123%;
+        left: -45%;
+    }
+
+    .headline span{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .headline .line{
+        margin-right: 20px;
+    }
+
+    .headline h1{
+        font-size: 28px;
+    }
+}
+
+
+@media(max-width: 410px){
+
+    .headlineInnerButton{
+        width: 100px;
+    }
+
+    .jungle{
+        top: 65%;
+    }
+
+    .backgroundShapeJungle{
+        top: 110%;
+        left: -45%;
+    }
+
+}
+
+
