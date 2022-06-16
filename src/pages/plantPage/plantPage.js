@@ -28,7 +28,7 @@ function PlantPage() {
   const dispatch = useDispatch();
 
   React.useEffect(() => {
-    axios.get(`http://localhost:3004/plants?id=${id}`).then(({data}) =>{
+    axios.get(`/plants?id=${id}`).then(({data}) =>{
       setPlant(...data)
       setActivePrice(aviableSizes[0].price)
     })

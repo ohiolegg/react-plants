@@ -74,7 +74,7 @@ function EmptyCart() {
 
             <motion.div variants={fadeInUp} custom = {1.2}
             className={classes.mainScreenCollage}>
-                <img src="./images/emptyCart/collage.png" alt="collage" className={classes.collageImg}/>
+                <img src="./images/emptyCart/Collage.png" alt="collage" className={classes.collageImg}/>
                 <motion.div variants={zoomIn} custom = {1} className={classes.backgroundShape}></motion.div>
             </motion.div>
 
