@@ -725,11 +725,11 @@ header{
 
 @media(max-width: 410px){
     .headline span{
-        font-size: 14px;
+        font-size: 13px !important;
     }
 
     .headline h1{
-        font-size: 32px;
+        font-size: 32px !important;
     }
 
     .offerInner{
