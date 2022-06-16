@@ -203,6 +203,18 @@ button{
         flex-direction: column;
         align-items: center;
     }
+
+    .discountForm{
+        margin: 25px 0px;
+    }
+
+    .discountInput{
+        margin-bottom: 20px;
+    }
+
+    .discountButton{
+        width: 232px;
+    }
 }
 
 .wrong{
