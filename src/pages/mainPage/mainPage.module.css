@@ -121,6 +121,9 @@
     height: 263.04px;
     background: #C6F19F;
     filter: blur(118px);
+    -webkit-filter: blur(118px);
+    -moz-filter: blur(118px);
+    -ms-filter: blur(118px);
     border-radius: 50px;
     position: absolute;
     z-index: -12;
@@ -343,6 +346,9 @@
     height: 200px;
     background: #C6F19F;
     filter: blur(95px);
+    -webkit-filter: blur(95px);
+    -moz-filter: blur(95px);
+    -ms-filter: blur(95px);
     border-radius: 50px;
     position: absolute;
     z-index: -12;
@@ -435,6 +441,9 @@
     background: #2A4E2B;
     z-index: -12;
     filter: blur(56px);
+    -webkit-filter: blur(56px);
+    -moz-filter: blur(56px);
+    -ms-filter: blur(56px);
 }
 
 .blog{
@@ -798,6 +807,9 @@
         height: 200px;
         background: #C6F19F;
         filter: blur(60px);
+        -webkit-filter: blur(60px);
+        -moz-filter: blur(60px);
+        -ms-filter: blur(60px);
         border-radius: 50px;
         position: absolute;
         z-index: -12;
@@ -870,6 +882,9 @@
         width: 100px;
         height: 100px;
         filter: blur(40px);
+        -webkit-filter: blur(40px);
+        -moz-filter: blur(40px);
+        -ms-filter: blur(40px);
     }
 
     .jungle svg{
