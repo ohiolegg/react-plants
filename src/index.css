@@ -1,8 +1,11 @@
 
 @font-face {
   font-family: 'GarciaMarquez';
-  src: url('/public/font/GarciaMarquez.ttf') format("ttf");
-  font-weight: normal;
+  src: url('/public/font/GarciaMarquez.ttf') format("truetype"),
+  url('/public/font/GarciaMarquez.otf') format("otf"),
+  url('/public/font/GarciaMarquez.woff') format("woff"),
+  url('/public/font/GarciaMarquez.svg') format("svg");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }

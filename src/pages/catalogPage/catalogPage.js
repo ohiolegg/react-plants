@@ -60,7 +60,6 @@ function CatalogPage({items}) {
   }, [])
 
   React.useEffect(() => {
-    console.log(rangeValue)
   }, [rangeValue])
 
   const dispatch = useDispatch()
