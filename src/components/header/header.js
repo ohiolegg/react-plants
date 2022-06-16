@@ -104,9 +104,9 @@ function Header({bgColor, textColor, fullPaged, className}) {
                     {isBurgerOpen && (
                           <nav className={classes.mobileNavBar}>
                           <ul style = {{backgroundColor: bgColor}}>
-                            <Link to = '/'><li style = {{color: textColor}}>Why PlantyCo ?</li></Link> 
+                            <Link to = '/'><li style = {{color: textColor}}>Main page</li></Link> 
                             <Link to = '/catalog'><li style = {{color: textColor}}>Plants</li></Link>
-                            <Link to = '/'><li style = {{color: textColor}}>Reviews</li></Link>
+                            <Link to = '/' onClick = {() => alert('On development stage')} ><li style = {{color: textColor}}>Blog</li></Link>
                             <a href = '#footer'><li style = {{color: textColor}}>Contacts</li></a>
                           </ul>
                       </nav>
