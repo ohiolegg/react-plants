@@ -370,14 +370,14 @@ export const MainPage = ({newArrivals}) => {
 
     <section className={classes.video}>
             <video autoPlay muted loop preload = "auto" className={classes.bgVideo}>
-                <source type = "video/mp4" src = "/images/mainPage/video/Plants044.mp4"/>
+                <source type = "video/mp4" src = "/images/mainPage/video/Plants0441.mp4"/>
             </video>
 
             <div className={`${classes.containerWrapper} ${classes.videoWrapper}`}>
                 <div className={classes.videoTitle}>PlantyCo.</div>
                 <div className={classes.videoSub}>fresh and green</div>
 
-                <div className={classes.videoDesc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum amet deleniti aliquam mollitia officia numquam.</div>
+                <div className={classes.videoDesc}>Video shot by our team. Join us! Stylish. Easily. Green.</div>
             </div>
         </section>
 
