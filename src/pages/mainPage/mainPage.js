@@ -321,7 +321,7 @@ export const MainPage = ({newArrivals}) => {
 
                 <motion.div variants={fadeInUp} custom = {1.2}
                 className={classes.mainScreenCollage}>
-                    <img src="./images/mainPage/collage.png" alt="collage" className={classes.collageImg}/>
+                    <img src="./images/mainPage/Collage.png" alt="collage" className={classes.collageImg}/>
                     <motion.div variants={zoomIn} custom = {1.5} className={classes.backgroundShape}></motion.div>
                 </motion.div>
 
