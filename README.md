@@ -1,5 +1,8 @@
 # Online shop for ordering plants - PlantyCo
 
+### Link
+https://react-plant.herokuapp.com/
+
 ## Stack:
 
 * ReactJS + Hooks
